@@ -4,6 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class About extends CI_Controller {
 
+    //anh yêu em
+
     public function index()
     { 
         $this->load->model('admin/Slide_model');
