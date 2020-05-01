@@ -1,0 +1,2219 @@
+/* line 3, style.scss */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* line 4, style.scss */
+  button:focus {
+    outline: 0;
+  }
+  
+  /* line 51, style.scss */
+  main article #introduce .intro a.read-more, main article #meeting .content a.read-more, main article #meeting2 .content a.read-more, main article #contact-us .contact-us-inner a.read-more {
+    background: #feb518;
+    padding: 10px 40px;
+    position: relative;
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    border: 2px solid transparent;
+    margin-top: 25px;
+    transition: 0.4s;
+  }
+  /* line 62, style.scss */
+  main article #introduce .intro a.read-more:hover, main article #meeting .content a.read-more:hover, main article #meeting2 .content a.read-more:hover, main article #contact-us .contact-us-inner a.read-more:hover {
+    background: #fff;
+    color: #feb518;
+    border: 2px solid #feb518;
+  }
+  
+  /* line 68, style.scss */
+  main article #introduce, main article #special, main article #menu-tab, main article #menu-tab ul li ._1tab, main article #feedback, main article #chefs, main article #reservation, main article #meeting, main article #meeting2, main article #services, main article #booking-table, main article #gallery, main article #main-blog, main article #aside, main article #message, main article #branch, footer {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+  
+  /* line 72, style.scss */
+  main article #block_1 .block_1-inner, main article #block_2 .block_1-inner, main article #block_7 .block_1-inner, main article #block_3 .block_1-inner, main article #block_4 .block_1-inner, main article #block_5 .block_1-inner, main article #block_6 .block_1-inner, main article #block_8 .block_1-inner, main article #block_9 .block_1-inner, main article #block_10 .block_1-inner {
+    padding: 222px 0;
+  }
+  
+  /* line 75, style.scss */
+  main article .title, main article #meeting2 .content .title {
+    margin-bottom: 60px;
+  }
+  /* line 77, style.scss */
+  main article .title h5, main article #meeting2 .content .title h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    font-weight: 700;
+    color: #feb518;
+  }
+  /* line 81, style.scss */
+  main article .title h4, main article #meeting2 .content .title h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+  }
+  
+  /* line 89, style.scss */
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  /* line 95, style.scss */
+  header #header-top {
+    height: 40px;
+    background: #333333;
+  }
+  /* line 98, style.scss */
+  header #header-top .social {
+    height: 40px;
+    border-right: 1px solid #6e6e6e;
+  }
+  /* line 102, style.scss */
+  header #header-top .social ul li {
+    line-height: 40px;
+    padding: 0 15px;
+  }
+  /* line 105, style.scss */
+  header #header-top .social ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #dddddd;
+    transition: 0.4s;
+  }
+  /* line 110, style.scss */
+  header #header-top .social ul li a:hover {
+    color: #feb518;
+  }
+  /* line 117, style.scss */
+  header #header-top .phone {
+    height: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #dddddd;
+    padding-left: 24px;
+  }
+  /* line 125, style.scss */
+  header #header-top .opening-hours {
+    height: 40px;
+  }
+  /* line 127, style.scss */
+  header #header-top .opening-hours p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    color: #dddddd;
+    border-right: 1px solid #6e6e6e;
+    border-left: 1px solid #6e6e6e;
+    float: right;
+    padding: 0px 24px;
+  }
+  /* line 140, style.scss */
+  header #hidden-nav {
+    width: 240px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.96);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    transform: translateX(100%);
+    transition: 0.4s;
+    visibility: hidden;
+  }
+  /* line 151, style.scss */
+  header #hidden-nav.opened {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  /* line 155, style.scss */
+  header #hidden-nav ul {
+    list-style: none;
+    padding-top: 45px;
+  }
+  /* line 158, style.scss */
+  header #hidden-nav ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  /* line 161, style.scss */
+  header #hidden-nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #dddddd;
+  }
+  /* line 167, style.scss */
+  header #hidden-nav ul li a.active {
+    color: #feb518;
+  }
+  /* line 170, style.scss */
+  header #hidden-nav ul li a.reservation {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 33px;
+    background: #feb518;
+    border: 2px solid #feb518;
+    transition: 0.4s;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 180, style.scss */
+  header #hidden-nav ul li a.reservation:hover {
+    background: none;
+    color: #dddddd;
+  }
+  /* line 188, style.scss */
+  header .overlay-all {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.164);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+  }
+  /* line 199, style.scss */
+  header .overlay-all.apperance {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* line 204, style.scss */
+  header #Nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+  }
+  /* line 210, style.scss */
+  header #Nav #Navigation ul li a.nav-link {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 16px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  /* line 216, style.scss */
+  header #Nav #Navigation ul li a.nav-link:hover {
+    color: #feb518;
+  }
+  /* line 219, style.scss */
+  header #Nav #Navigation ul li a.nav-link.active {
+    color: #feb518;
+  }
+  /* line 223, style.scss */
+  header #Nav #Navigation ul li a.reservation {
+    padding: 12px 33px;
+    background: none;
+    border: 2px solid #fff;
+    transition: 0.4s;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+  /* line 231, style.scss */
+  header #Nav #Navigation ul li a.reservation:hover {
+    background: #feb518;
+    color: #fff;
+  }
+  /* line 239, style.scss */
+  header #Nav button.open-button {
+    float: right;
+    border: none;
+    display: none;
+    background: #feb518;
+    border-radius: 0;
+  }
+  /* line 245, style.scss */
+  header #Nav button.open-button i {
+    color: #fff;
+  }
+  /* line 250, style.scss */
+  header #Nav.fixedTop {
+    background-color: rgba(0, 0, 0, 0.96);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+  }
+  
+  /* line 265, style.scss */
+  main article ._1row {
+    clear: both;
+    width: 100%;
+  }
+  /* line 270, style.scss */
+  main article #slider ._1slide {
+    height: 95vh;
+  }
+  /* line 272, style.scss */
+  main article #slider ._1slide img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 276, style.scss */
+  main article #slider ._1slide .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* line 284, style.scss */
+  main article #slider ._1slide .slide-caption {
+    bottom: 30vh;
+    overflow: hidden;
+  }
+  /* line 287, style.scss */
+  main article #slider ._1slide .slide-caption h2.title-caption {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+  }
+  /* line 293, style.scss */
+  main article #slider ._1slide .slide-caption p.more {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+  /* line 298, style.scss */
+  main article #slider ._1slide .slide-caption a.read {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    background: #feb518;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    text-decoration: none;
+    padding: 10px 40px;
+  }
+  /* line 306, style.scss */
+  main article #slider ._1slide .slide-caption a.read:hover {
+    background: none;
+    color: #fff;
+    border: 2px solid #feb518;
+  }
+  /* line 314, style.scss */
+  main article #slider a.left, main article #slider a.right {
+    transition: 0.4s;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    background: #6e6e6e;
+    display: block;
+    position: absolute;
+    top: 50%;
+    line-height: 40px;
+  }
+  /* line 324, style.scss */
+  main article #slider a.left:hover, main article #slider a.right:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 327, style.scss */
+  main article #slider a.left span, main article #slider a.right span {
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    transform: translateY(-1px);
+    display: block;
+  }
+  /* line 335, style.scss */
+  main article #slider a.left {
+    left: 2%;
+  }
+  /* line 338, style.scss */
+  main article #slider a.right {
+    right: 2%;
+  }
+  /* line 342, style.scss */
+  main article #slider ol.indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    transition: background 0.4s ease;
+  }
+  /* line 351, style.scss */
+  main article #slider ol.indicators li.active {
+    background: #fff;
+  }
+  /* line 358, style.scss */
+  main article #introduce img {
+    width: 100%;
+  }
+  /* line 359, style.scss */
+  main article #introduce .intro {
+    margin-top: 60px;
+  }
+  /* line 361, style.scss */
+  main article #introduce .intro h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: #feb518;
+  }
+  /* line 365, style.scss */
+  main article #introduce .intro h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 20px;
+  }
+  /* line 370, style.scss */
+  main article #introduce .intro p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    padding-bottom: 30px;
+  }
+  /* line 381, style.scss */
+  main article #block_1 .block_1-inner, main article #block_2 .block_1-inner, main article #block_7 .block_1-inner, main article #block_3 .block_1-inner, main article #block_4 .block_1-inner, main article #block_5 .block_1-inner, main article #block_6 .block_1-inner, main article #block_8 .block_1-inner, main article #block_9 .block_1-inner, main article #block_10 .block_1-inner {
+    display: block;
+    background-image: url(../images/1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+  }
+  /* line 391, style.scss */
+  main article #block_1 .block_1-inner:before, main article #block_2 .block_1-inner:before, main article #block_7 .block_1-inner:before, main article #block_3 .block_1-inner:before, main article #block_4 .block_1-inner:before, main article #block_5 .block_1-inner:before, main article #block_6 .block_1-inner:before, main article #block_8 .block_1-inner:before, main article #block_9 .block_1-inner:before, main article #block_10 .block_1-inner:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* line 400, style.scss */
+  main article #block_1 .block_1-inner .title, main article #block_2 .block_1-inner .title, main article #block_7 .block_1-inner .title, main article #block_3 .block_1-inner .title, main article #block_4 .block_1-inner .title, main article #block_5 .block_1-inner .title, main article #block_6 .block_1-inner .title, main article #block_8 .block_1-inner .title, main article #block_9 .block_1-inner .title, main article #block_10 .block_1-inner .title {
+    margin-bottom: 0px;
+  }
+  /* line 402, style.scss */
+  main article #block_1 .block_1-inner .title h5, main article #block_2 .block_1-inner .title h5, main article #block_7 .block_1-inner .title h5, main article #block_3 .block_1-inner .title h5, main article #block_4 .block_1-inner .title h5, main article #block_5 .block_1-inner .title h5, main article #block_6 .block_1-inner .title h5, main article #block_8 .block_1-inner .title h5, main article #block_9 .block_1-inner .title h5, main article #block_10 .block_1-inner .title h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    font-weight: 700;
+    color: #feb518;
+  }
+  /* line 406, style.scss */
+  main article #block_1 .block_1-inner .title h4, main article #block_2 .block_1-inner .title h4, main article #block_7 .block_1-inner .title h4, main article #block_3 .block_1-inner .title h4, main article #block_4 .block_1-inner .title h4, main article #block_5 .block_1-inner .title h4, main article #block_6 .block_1-inner .title h4, main article #block_8 .block_1-inner .title h4, main article #block_9 .block_1-inner .title h4, main article #block_10 .block_1-inner .title h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+  }
+  /* line 415, style.scss */
+  main article #special ._1-dish {
+    cursor: pointer;
+  }
+  /* line 417, style.scss */
+  main article #special ._1-dish .thumbnail {
+    position: relative;
+    transition: 0.4s;
+  }
+  /* line 420, style.scss */
+  main article #special ._1-dish .thumbnail span {
+    padding: 0px 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    background: #feb518;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+  }
+  /* line 431, style.scss */
+  main article #special ._1-dish .thumbnail img {
+    width: 100%;
+  }
+  /* line 434, style.scss */
+  main article #special ._1-dish .thumbnail:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.164);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+  }
+  /* line 445, style.scss */
+  main article #special ._1-dish .information {
+    margin-top: 24px;
+  }
+  /* line 447, style.scss */
+  main article #special ._1-dish .information a {
+    display: block;
+    float: left;
+    color: #333333;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  /* line 455, style.scss */
+  main article #special ._1-dish .information span.price {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    float: right;
+  }
+  /* line 461, style.scss */
+  main article #special ._1-dish p.desc {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    float: left;
+    margin-top: 10px;
+  }
+  /* line 469, style.scss */
+  main article #special ._1-dish:hover .thumbnail:before {
+    background: none;
+  }
+  /* line 474, style.scss */
+  main article #special ._1-dish:hover .information a {
+    color: #feb518;
+  }
+  /* line 483, style.scss */
+  main article #block_2 .block_1-inner, main article #block_7 .block_1-inner {
+    background-image: url(../images/2.jpg);
+  }
+  /* line 487, style.scss */
+  main article #menu-tab {
+    padding-bottom: 0 !important;
+  }
+  /* line 490, style.scss */
+  main article #menu-tab ul.list-tab {
+    position: relative;
+    z-index: 2;
+    top: 1px;
+    margin-top: -160px;
+    list-style: none;
+  }
+  /* line 496, style.scss */
+  main article #menu-tab ul.list-tab li {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  /* line 503, style.scss */
+  main article #menu-tab ul.list-tab li:hover {
+    color: #feb518;
+  }
+  /* line 506, style.scss */
+  main article #menu-tab ul.list-tab li span.active {
+    color: #feb518;
+  }
+  /* line 511, style.scss */
+  main article #menu-tab .overlay-detail-info {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.164);
+    top: 0;
+    left: 0;
+    z-index: 998;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+  }
+  /* line 522, style.scss */
+  main article #menu-tab .overlay-detail-info.show-3 {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* line 527, style.scss */
+  main article #menu-tab ul {
+    list-style: none;
+    margin-bottom: 0 !important;
+  }
+  /* line 531, style.scss */
+  main article #menu-tab ul li ._1tab {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* line 536, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  /* line 539, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner {
+    position: relative;
+    min-height: 90px;
+    padding: 14px 0px 0px 110px;
+  }
+  /* line 543, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .image-box {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 0;
+    top: 0;
+    border: 1px solid #dddddd;
+  }
+  /* line 550, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .image-box img {
+    width: 100%;
+  }
+  /* line 552, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner span.new {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    padding: 0 10px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #feb518;
+    z-index: 10;
+  }
+  /* line 563, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info {
+    list-style: none;
+  }
+  /* line 565, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li {
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 569, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.name {
+    float: left;
+  }
+  /* line 571, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.name a {
+    transition: 0.4s;
+    text-decoration: none;
+    color: #333333;
+  }
+  /* line 575, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.name a:hover {
+    color: #feb518;
+  }
+  /* line 580, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.dotted {
+    padding-left: 30px;
+  }
+  /* line 583, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.price {
+    float: right;
+  }
+  /* line 586, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.desc {
+    float: left;
+    color: #777777;
+    margin-top: 10px;
+  }
+  /* line 593, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info {
+    width: 780px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translateX(-50%) translateY(-50%) scale(0.9);
+    background: #fff;
+    padding: 40px;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* line 606, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info.show-2 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  /* line 611, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .img-thumbnail-dish {
+    float: left;
+    position: relative;
+    width: 35%;
+    height: 100%;
+  }
+  /* line 616, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .img-thumbnail-dish img {
+    width: 100%;
+  }
+  /* line 621, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .img-thumbnail-dish:hover .nav-button a.prev, main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .img-thumbnail-dish:hover .nav-button a.next {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* line 629, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .info-block {
+    width: 65%;
+    margin-left: 38%;
+  }
+  /* line 632, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .info-block p.name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    padding-top: 15px;
+  }
+  /* line 637, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .info-block p.describe {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+  }
+  /* line 641, style.scss */
+  main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .info-block p.cost {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #feb518;
+  }
+  /* line 654, style.scss */
+  main article #menu-tab ._1tab.show {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    animation: fadeIn 0.4s ease;
+  }
+  /* line 661, style.scss */
+  main article #feedback {
+    position: relative;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  /* line 671, style.scss */
+  main article #feedback:before {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 680, style.scss */
+  main article #feedback ._1-fb-slide {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  /* line 683, style.scss */
+  main article #feedback ._1-fb-slide p.quote-sign {
+    font-size: 26px;
+    margin-bottom: 45px;
+  }
+  /* line 687, style.scss */
+  main article #feedback ._1-fb-slide p.people {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #feb518;
+    margin-top: 34px;
+  }
+  /* line 697, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner {
+    transition: 0.4s;
+  }
+  /* line 699, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .image-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 0px 3px 13px 0px #00000045;
+  }
+  /* line 705, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .image-box img {
+    width: 100%;
+  }
+  /* line 708, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .image-box .overlay {
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    background: #feb518c7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 3;
+    transform: scale(0.95);
+  }
+  /* line 721, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .image-box .overlay ul {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    list-style: none;
+    display: flex;
+  }
+  /* line 727, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .image-box .overlay ul li {
+    padding: 0 12px;
+  }
+  /* line 729, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .image-box .overlay ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  /* line 734, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .image-box .overlay ul li a:hover {
+    color: #333333;
+  }
+  /* line 742, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .name-and-job {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 745, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner .name-and-job p.job {
+    margin-top: 16px;
+    color: #feb518;
+  }
+  /* line 752, style.scss */
+  main article #chefs ._1-chef ._1-chef-inner:hover .image-box .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* line 761, style.scss */
+  main article #reservation {
+    position: relative;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /* line 771, style.scss */
+  main article #reservation:before {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 781, style.scss */
+  main article #reservation .title h4 {
+    color: #fff;
+  }
+  /* line 785, style.scss */
+  main article #reservation form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 789, style.scss */
+  main article #reservation form p.valid-form {
+    margin-bottom: 30px;
+  }
+  /* line 791, style.scss */
+  main article #reservation form p.valid-form input {
+    width: 100%;
+    padding: 10px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border: 1px solid #6e6e6e;
+    color: #fff;
+    transition: 0.4s;
+    position: relative;
+    height: 45px;
+    display: block;
+  }
+  /* line 803, style.scss */
+  main article #reservation form p.valid-form input:focus {
+    border: 1px solid #feb518;
+    outline: #feb518;
+  }
+  /* line 807, style.scss */
+  main article #reservation form p.valid-form input::placeholder {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+  }
+  /* line 811, style.scss */
+  main article #reservation form p.valid-form input[type='text'] {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  /* line 814, style.scss */
+  main article #reservation form p.valid-form input[type=number]::-webkit-inner-spin-button,
+  main article #reservation form p.valid-form input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* line 820, style.scss */
+  main article #reservation form button#send {
+    padding: 16px 45px;
+    color: #333333;
+    background: #feb518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-radius: 0;
+    border: 1px solid #feb518;
+    margin-top: 30px;
+  }
+  /* line 830, style.scss */
+  main article #reservation form button#send:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: #feb518;
+  }
+  /* line 840, style.scss */
+  main article #meeting img {
+    width: 100%;
+  }
+  /* line 843, style.scss */
+  main article #meeting .content {
+    padding-left: 0 !important;
+  }
+  /* line 845, style.scss */
+  main article #meeting .content .title {
+    margin-bottom: 24px;
+  }
+  /* line 846, style.scss */
+  main article #meeting .content .title h4 {
+    font-size: 28px;
+  }
+  /* line 851, style.scss */
+  main article #meeting .content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+  }
+  /* line 855, style.scss */
+  main article #meeting .content h6 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 18px;
+  }
+  /* line 861, style.scss */
+  main article #meeting .content a.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  /* line 868, style.scss */
+  main article #meeting .picture-1 {
+    padding-right: 5px !important;
+  }
+  /* line 871, style.scss */
+  main article #meeting .picture-2 {
+    padding-left: 5px !important;
+  }
+  /* line 879, style.scss */
+  main article #block_3 .block_1-inner {
+    background-image: url(../images/5.jpg);
+  }
+  /* line 885, style.scss */
+  main article #meeting2 img {
+    width: 100%;
+  }
+  /* line 888, style.scss */
+  main article #meeting2 .content {
+    padding-left: 0 !important;
+  }
+  /* line 890, style.scss */
+  main article #meeting2 .content .title {
+    margin-bottom: 24px;
+  }
+  /* line 892, style.scss */
+  main article #meeting2 .content .title h4 {
+    font-size: 28px;
+  }
+  /* line 897, style.scss */
+  main article #meeting2 .content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+  }
+  /* line 901, style.scss */
+  main article #meeting2 .content h6 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 18px;
+  }
+  /* line 907, style.scss */
+  main article #meeting2 .content a.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  /* line 914, style.scss */
+  main article #meeting2 .collumn {
+    position: relative;
+    padding: 0 2px;
+  }
+  /* line 921, style.scss */
+  main article #services .img-box {
+    margin-bottom: 35px;
+  }
+  /* line 925, style.scss */
+  main article #services .widget-content p.lable {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  /* line 929, style.scss */
+  main article #services .widget-content p.text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+  }
+  /* line 935, style.scss */
+  main article #master-chef {
+    padding-top: 32px;
+    padding-bottom: 0 !important;
+    background-image: url(../images/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  /* line 946, style.scss */
+  main article #master-chef .img-box img {
+    width: 100%;
+  }
+  /* line 950, style.scss */
+  main article #master-chef .master-chef-infor {
+    margin-top: 17%;
+  }
+  /* line 952, style.scss */
+  main article #master-chef .master-chef-infor .name-chef {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  /* line 957, style.scss */
+  main article #master-chef .master-chef-infor .job {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #feb518;
+    margin-bottom: 30px;
+  }
+  /* line 962, style.scss */
+  main article #master-chef .master-chef-infor .infor {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+  }
+  /* line 966, style.scss */
+  main article #master-chef .master-chef-infor ul {
+    margin-top: 35px;
+    list-style: none;
+    display: flex;
+  }
+  /* line 970, style.scss */
+  main article #master-chef .master-chef-infor ul li {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0;
+    background: #333333;
+    margin-right: 10px;
+    text-align: center;
+  }
+  /* line 978, style.scss */
+  main article #master-chef .master-chef-infor ul li a {
+    text-decoration: none;
+    transition: 0.4s;
+    color: #fff;
+  }
+  /* line 984, style.scss */
+  main article #master-chef .master-chef-infor ul li:hover a {
+    color: #feb518;
+  }
+  /* line 992, style.scss */
+  main article #contact-us {
+    padding: 70px 0;
+    position: relative;
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  /* line 1002, style.scss */
+  main article #contact-us:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* line 1011, style.scss */
+  main article #contact-us .contact-us-inner {
+    display: inline-block;
+  }
+  /* line 1013, style.scss */
+  main article #contact-us .contact-us-inner .text {
+    padding-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    float: left;
+    line-height: 24px;
+  }
+  /* line 1020, style.scss */
+  main article #contact-us .contact-us-inner a.read-more {
+    float: right;
+    margin-top: 0;
+  }
+  /* line 1031, style.scss */
+  main article #block_4 .block_1-inner {
+    background-image: url(../images/4.jpg);
+  }
+  /* line 1037, style.scss */
+  main article #booking-table .booking {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+  }
+  /* line 1041, style.scss */
+  main article #booking-table .booking p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+  }
+  /* line 1044, style.scss */
+  main article #booking-table .booking p span {
+    color: #feb518;
+  }
+  /* line 1047, style.scss */
+  main article #booking-table .booking p.phone-number {
+    font-size: 36px;
+    color: #333333;
+  }
+  /* line 1053, style.scss */
+  main article #booking-table form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 1057, style.scss */
+  main article #booking-table form p.valid-form {
+    margin-bottom: 30px;
+  }
+  /* line 1059, style.scss */
+  main article #booking-table form p.valid-form input {
+    width: 100%;
+    padding: 10px 25px;
+    background: #fff;
+    border-style: solid;
+    border: 1px solid #6e6e6e;
+    color: #333333;
+    transition: 0.4s;
+    position: relative;
+    height: 45px;
+    display: block;
+  }
+  /* line 1071, style.scss */
+  main article #booking-table form p.valid-form input:focus {
+    border: 1px solid #feb518;
+    outline: #feb518;
+  }
+  /* line 1075, style.scss */
+  main article #booking-table form p.valid-form input::placeholder {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 1079, style.scss */
+  main article #booking-table form p.valid-form input[type='text'] {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  /* line 1082, style.scss */
+  main article #booking-table form p.valid-form input[type=number]::-webkit-inner-spin-button,
+  main article #booking-table form p.valid-form input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* line 1088, style.scss */
+  main article #booking-table form button#send {
+    padding: 16px 45px;
+    color: #333333;
+    background: #feb518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-radius: 0;
+    border: 1px solid #feb518;
+    margin-top: 30px;
+  }
+  /* line 1098, style.scss */
+  main article #booking-table form button#send:hover {
+    background: #fff;
+    color: #feb518;
+  }
+  /* line 1108, style.scss */
+  main article #block_5 .block_1-inner {
+    background-image: url(../images/4.jpg);
+  }
+  /* line 1116, style.scss */
+  main article #block_6 .block_1-inner {
+    background-image: url(../images/5.jpg);
+  }
+  /* line 1128, style.scss */
+  main article #block_8 .block_1-inner {
+    background-image: url(../images/5.jpg);
+  }
+  /* line 1132, style.scss */
+  main article .pagination {
+    margin-top: 50px;
+    position: relative;
+  }
+  /* line 1135, style.scss */
+  main article .pagination ul.page-number {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 0;
+  }
+  /* line 1139, style.scss */
+  main article .pagination ul.page-number li {
+    margin-right: 10px;
+  }
+  /* line 1141, style.scss */
+  main article .pagination ul.page-number li span.current-page {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50%;
+    background: #feb518;
+    padding: 10px 18px;
+    color: #fff;
+  }
+  /* line 1148, style.scss */
+  main article .pagination ul.page-number li a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50%;
+    background: transparent;
+    padding: 10px 18px;
+    color: #333333;
+    transition: 0.4s;
+  }
+  /* line 1156, style.scss */
+  main article .pagination ul.page-number li a:hover {
+    background: #feb518;
+    color: #fff;
+  }
+  /* line 1166, style.scss */
+  main article #gallery ._1-box {
+    margin-bottom: 30px;
+  }
+  /* line 1168, style.scss */
+  main article #gallery ._1-box a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    transition: 0.4s;
+  }
+  /* line 1173, style.scss */
+  main article #gallery ._1-box a img {
+    width: 100%;
+  }
+  /* line 1174, style.scss */
+  main article #gallery ._1-box a::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.164);
+    transition: 0.4s;
+  }
+  /* line 1186, style.scss */
+  main article #gallery ._1-box a:hover::after {
+    opacity: 0;
+  }
+  /* line 1200, style.scss */
+  main article #main-blog ._1-blog {
+    margin-bottom: 60px;
+  }
+  /* line 1203, style.scss */
+  main article #main-blog ._1-blog .blog-title a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.4s;
+  }
+  /* line 1209, style.scss */
+  main article #main-blog ._1-blog .blog-title span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 1214, style.scss */
+  main article #main-blog ._1-blog .blog-image-box {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  /* line 1219, style.scss */
+  main article #main-blog ._1-blog .blog-image-box img {
+    width: 100%;
+  }
+  /* line 1220, style.scss */
+  main article #main-blog ._1-blog .blog-image-box:after {
+    content: '';
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.164);
+  }
+  /* line 1233, style.scss */
+  main article #main-blog ._1-blog .title-and-author .author {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    padding-top: 10px;
+  }
+  /* line 1237, style.scss */
+  main article #main-blog ._1-blog .title-and-author .author span.time {
+    color: #6e6e6e;
+    margin-right: 10px;
+  }
+  /* line 1241, style.scss */
+  main article #main-blog ._1-blog .title-and-author .author a.author {
+    text-decoration: none;
+    color: #feb518;
+  }
+  /* line 1248, style.scss */
+  main article #main-blog ._1-blog .content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e6e6e;
+    padding-top: 30px;
+  }
+  /* line 1254, style.scss */
+  main article #main-blog ._1-blog .read-more-and-comment {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px dotted #6e6e6e;
+  }
+  /* line 1258, style.scss */
+  main article #main-blog ._1-blog .read-more-and-comment a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  /* line 1263, style.scss */
+  main article #main-blog ._1-blog .read-more-and-comment a:hover {
+    color: #feb518;
+  }
+  /* line 1267, style.scss */
+  main article #main-blog ._1-blog .read-more-and-comment a.readMore {
+    float: left;
+  }
+  /* line 1270, style.scss */
+  main article #main-blog ._1-blog .read-more-and-comment a.comment {
+    float: right;
+  }
+  /* line 1273, style.scss */
+  main article #main-blog ._1-blog .read-more-and-comment .tags {
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 1277, style.scss */
+  main article #main-blog ._1-blog .read-more-and-comment .tags a {
+    color: #feb518;
+  }
+  /* line 1282, style.scss */
+  main article #main-blog ._1-blog ul {
+    padding-top: 30px;
+    list-style: none;
+  }
+  /* line 1285, style.scss */
+  main article #main-blog ._1-blog ul li {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+  }
+  /* line 1289, style.scss */
+  main article #main-blog ._1-blog ul li i {
+    font-size: 12px;
+    color: #feb518;
+    margin-right: 10px;
+  }
+  /* line 1296, style.scss */
+  main article #main-blog ._1-blog iframe {
+    margin-top: 30px;
+    width: 100%;
+    height: 410px;
+  }
+  /* line 1302, style.scss */
+  main article #main-blog ._1-blog:hover .blog-image-box:after {
+    opacity: 0;
+  }
+  /* line 1306, style.scss */
+  main article #main-blog ._1-blog:hover .blog-title a {
+    color: #feb518;
+  }
+  /* line 1315, style.scss */
+  main article #aside form {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 1318, style.scss */
+  main article #aside form input[type=text] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #6e6e6e;
+    padding: 0 20px;
+    transition: 0.4s;
+  }
+  /* line 1325, style.scss */
+  main article #aside form input[type='text'] {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /* line 1328, style.scss */
+  main article #aside form input::placeholder {
+    color: #6e6e6e;
+  }
+  /* line 1331, style.scss */
+  main article #aside form button[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 6px;
+    right: 23px;
+    color: #6e6e6e;
+  }
+  /* line 1340, style.scss */
+  main article #aside form button[type=submit]:hover {
+    color: #333333;
+  }
+  /* line 1344, style.scss */
+  main article #aside form input:focus {
+    border: 1px solid #feb518;
+    outline: #feb518;
+  }
+  /* line 1350, style.scss */
+  main article #aside .categories p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  /* line 1354, style.scss */
+  main article #aside .categories ul {
+    list-style: none;
+  }
+  /* line 1356, style.scss */
+  main article #aside .categories ul li {
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  /* line 1359, style.scss */
+  main article #aside .categories ul li a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.4s;
+  }
+  /* line 1360, style.scss */
+  main article #aside .categories ul li a i {
+    margin-right: 10px;
+  }
+  /* line 1367, style.scss */
+  main article #aside .categories ul li a:hover {
+    color: #feb518;
+  }
+  /* line 1377, style.scss */
+  main article #message {
+    padding-bottom: 0 !important;
+  }
+  /* line 1381, style.scss */
+  main article #message .contact-image-box img {
+    width: 100%;
+  }
+  /* line 1384, style.scss */
+  main article #message .right .title {
+    padding-top: 40px;
+  }
+  /* line 1386, style.scss */
+  main article #message .right .title h5 {
+    font-size: 30px;
+  }
+  /* line 1389, style.scss */
+  main article #message .right .title h4 {
+    font-size: 28px;
+  }
+  /* line 1393, style.scss */
+  main article #message .right form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 1397, style.scss */
+  main article #message .right form p {
+    padding-left: 0;
+  }
+  /* line 1400, style.scss */
+  main article #message .right form p.valid-form {
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  /* line 1403, style.scss */
+  main article #message .right form p.valid-form input {
+    width: 100%;
+    padding: 10px 25px;
+    background: #fff;
+    border-style: solid;
+    border: 1px solid #6e6e6e;
+    color: #333333;
+    transition: 0.4s;
+    position: relative;
+    height: 45px;
+    display: block;
+  }
+  /* line 1415, style.scss */
+  main article #message .right form p.valid-form input:focus {
+    border: 1px solid #feb518;
+    outline: #feb518;
+  }
+  /* line 1419, style.scss */
+  main article #message .right form p.valid-form input::placeholder {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 1423, style.scss */
+  main article #message .right form p.valid-form input[type='text'] {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  /* line 1426, style.scss */
+  main article #message .right form p.valid-form input[type=number]::-webkit-inner-spin-button,
+  main article #message .right form p.valid-form input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* line 1431, style.scss */
+  main article #message .right form p.valid-form textarea {
+    width: 100%;
+    padding: 10px 25px;
+    background: #fff;
+    border-style: solid;
+    border: 1px solid #6e6e6e;
+    color: #333333;
+    transition: 0.4s;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  /* line 1442, style.scss */
+  main article #message .right form p.valid-form textarea::placeholder {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333333;
+  }
+  /* line 1447, style.scss */
+  main article #message .right form button#send {
+    width: 100%;
+    padding: 16px 45px;
+    color: #333333;
+    background: #feb518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-radius: 0;
+    border: 1px solid #feb518;
+    margin-top: 30px;
+  }
+  /* line 1458, style.scss */
+  main article #message .right form button#send:hover {
+    background: #fff;
+    color: #feb518;
+  }
+  /* line 1469, style.scss */
+  main article #block_10 .block_1-inner {
+    background-image: url(../images/4.jpg);
+  }
+  /* line 1476, style.scss */
+  main article #branch ._1-branch .location-image-box {
+    margin-bottom: 40px;
+  }
+  /* line 1478, style.scss */
+  main article #branch ._1-branch .location-image-box img {
+    width: 100%;
+  }
+  /* line 1480, style.scss */
+  main article #branch ._1-branch ul.location {
+    list-style: none;
+  }
+  /* line 1482, style.scss */
+  main article #branch ._1-branch ul.location li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6e6e6e;
+  }
+  /* line 1488, style.scss */
+  main article #branch ._1-branch ul.location li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* line 1504, style.scss */
+  footer {
+    background: rgba(0, 0, 0, 0.96);
+  }
+  /* line 1507, style.scss */
+  footer .main-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #dddddd;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  /* line 1514, style.scss */
+  footer ._1 p._1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #dddddd;
+    margin: 20px 0;
+  }
+  /* line 1519, style.scss */
+  footer ._1 ul.contact-info {
+    position: relative;
+    list-style: none;
+    color: #dddddd;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /* line 1524, style.scss */
+  footer ._1 ul.contact-info li {
+    position: relative;
+    padding: 0 0 0 30px;
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+  /* line 1529, style.scss */
+  footer ._1 ul.contact-info li span {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    line-height: 24px;
+  }
+  /* line 1539, style.scss */
+  footer ._2 ul {
+    list-style: none;
+  }
+  /* line 1541, style.scss */
+  footer ._2 ul li {
+    margin-bottom: 10px;
+  }
+  /* line 1543, style.scss */
+  footer ._2 ul li a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #dddddd;
+    transition: 0.4s;
+  }
+  /* line 1548, style.scss */
+  footer ._2 ul li a:hover {
+    color: #feb518;
+  }
+  /* line 1556, style.scss */
+  footer ._3 ._1-post {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 75px;
+    cursor: pointer;
+  }
+  /* line 1561, style.scss */
+  footer ._3 ._1-post .image-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 62px;
+    height: 62px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #dddddd;
+  }
+  /* line 1571, style.scss */
+  footer ._3 ._1-post .content {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #dddddd;
+  }
+  /* line 1574, style.scss */
+  footer ._3 ._1-post .content a.title-blog {
+    padding-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #dddddd;
+    text-decoration: none;
+    transition: 0.4s;
+    display: block;
+  }
+  /* line 1582, style.scss */
+  footer ._3 ._1-post .content .time {
+    color: #777777;
+  }
+  /* line 1587, style.scss */
+  footer ._3 ._1-post:hover a.title-blog {
+    color: #feb518;
+  }
+  /* line 1594, style.scss */
+  footer ._4 ul {
+    color: #dddddd;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    list-style: none;
+  }
+  /* line 1598, style.scss */
+  footer ._4 ul li {
+    margin-bottom: 20px;
+  }
+  /* line 1600, style.scss */
+  footer ._4 ul li span.hours {
+    float: right;
+  }
+  
+  /* line 1607, style.scss */
+  .copyright {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #dddddd;
+    background: black;
+    padding: 40px 0;
+  }
+  
+  /* line 1615, style.scss */
+  .carousel-fade .carousel-item {
+    transition-duration: 2s;
+  }
+  
+  /* line 1620, style.scss */
+  -webkit-keyframes fadeIn from {
+    opacity: 0;
+  }
+  /* line 1624, style.scss */
+  -webkit-keyframes fadeIn to {
+    opacity: 1;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* line 1639, style.scss */
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+  
+  /* line 1643, style.scss */
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  /* line 1678, style.scss */
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+  
+  /* line 3, _mobile.scss */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* line 4, _mobile.scss */
+  button:focus {
+    outline: 0;
+  }
+  
+  @media screen and (max-width: 576px) {
+    /* line 90, _mobile.scss */
+    header #header-top {
+      height: auto;
+    }
+    /* line 92, _mobile.scss */
+    header #header-top .social {
+      text-align: center;
+      width: 100%;
+      padding-left: 110px;
+    }
+    /* line 97, _mobile.scss */
+    header #header-top .phone {
+      text-align: center;
+    }
+    /* line 100, _mobile.scss */
+    header #header-top .opening-hours {
+      display: none;
+    }
+    /* line 105, _mobile.scss */
+    header #Nav button.open-button {
+      display: block;
+    }
+  
+    /* line 112, _mobile.scss */
+    main article .title {
+      margin-bottom: 60px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    /* line 78, _mobile.scss */
+    main article .title h5 {
+      font-size: 30px !important;
+    }
+    /* line 82, _mobile.scss */
+    main article .title h4 {
+      font-size: 28px !important;
+    }
+    /* line 116, _mobile.scss */
+    main article #slider ._1slide {
+      height: 30vh !important;
+      margin-top: 12vh;
+    }
+    /* line 119, _mobile.scss */
+    main article #slider ._1slide .slide-caption {
+      display: none;
+    }
+    /* line 123, _mobile.scss */
+    main article #slider a.left, main article #slider a.right {
+      top: 65% !important;
+    }
+    /* line 127, _mobile.scss */
+    main article #introduce {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 131, _mobile.scss */
+    main article #block_1 .block_1-inner, main article #block_2 .block_1-inner, main article #block_7 .block_1-inner, main article #block_3 .block_1-inner, main article #block_4 .block_1-inner, main article #block_5 .block_1-inner, main article #block_6 .block_1-inner, main article #block_8 .block_1-inner, main article #block_9 .block_1-inner, main article #block_10 .block_1-inner {
+      padding: 100px 0 !important;
+    }
+    /* line 133, _mobile.scss */
+    main article #block_1 .block_1-inner .title, main article #block_2 .block_1-inner .title, main article #block_7 .block_1-inner .title, main article #block_3 .block_1-inner .title, main article #block_4 .block_1-inner .title, main article #block_5 .block_1-inner .title, main article #block_6 .block_1-inner .title, main article #block_8 .block_1-inner .title, main article #block_9 .block_1-inner .title, main article #block_10 .block_1-inner .title {
+      margin-bottom: 0 !important;
+    }
+    /* line 140, _mobile.scss */
+    main article #special {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 143, _mobile.scss */
+    main article #menu-tab {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+      padding-bottom: 0 !important;
+    }
+    /* line 146, _mobile.scss */
+    main article #menu-tab ul.list-tab {
+      margin-top: -130px !important;
+    }
+    /* line 151, _mobile.scss */
+    main article #menu-tab ul li ._1tab {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 156, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li {
+      font-size: 14px !important;
+    }
+    /* line 158, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.name {
+      width: 75%;
+    }
+    /* line 161, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.dotted {
+      display: none;
+    }
+    /* line 164, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner ul.info li span.desc {
+      font-size: 12px !important;
+    }
+    /* line 169, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info {
+      padding: 20px;
+      width: 100%;
+      height: auto;
+    }
+    /* line 173, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .img-thumbnail-dish {
+      display: block;
+      position: none;
+      float: none;
+    }
+    /* line 177, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .img-thumbnail-dish img {
+      width: 160%;
+      position: static;
+    }
+    /* line 182, _mobile.scss */
+    main article #menu-tab ul li ._1tab ._1dish ._1dish-inner .detail-info .info-block {
+      width: 100%;
+      float: left;
+      margin-left: auto;
+    }
+    /* line 194, _mobile.scss */
+    main article #feedback {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 196, _mobile.scss */
+    main article #feedback ._1-fb-slide {
+      font-size: 14px !important;
+    }
+    /* line 200, _mobile.scss */
+    main article #chefs {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 203, _mobile.scss */
+    main article #chefs ._1-chef-inner .image-box {
+      margin: 0 40px;
+    }
+    /* line 208, _mobile.scss */
+    main article #reservation {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 210, _mobile.scss */
+    main article #reservation button#send {
+      width: 100%;
+    }
+    /* line 214, _mobile.scss */
+    main article #meeting {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 216, _mobile.scss */
+    main article #meeting .content {
+      padding-left: 15px !important;
+      margin-bottom: 30px;
+    }
+    /* line 219, _mobile.scss */
+    main article #meeting .content .title {
+      padding-left: 0;
+    }
+    /* line 223, _mobile.scss */
+    main article #meeting .picture-1 {
+      padding-right: 3px !important;
+    }
+    /* line 226, _mobile.scss */
+    main article #meeting .picture-2 {
+      padding-left: 3px !important;
+    }
+    /* line 232, _mobile.scss */
+    main article #block_3 {
+      margin-top: 80px;
+    }
+    /* line 235, _mobile.scss */
+    main article #meeting2 {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 237, _mobile.scss */
+    main article #meeting2 .content {
+      padding-left: 15px !important;
+      margin-bottom: 30px;
+    }
+    /* line 240, _mobile.scss */
+    main article #meeting2 .content .title {
+      padding-left: 0 !important;
+    }
+    /* line 245, _mobile.scss */
+    main article #services {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 247, _mobile.scss */
+    main article #services .title {
+      margin-bottom: 60px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    /* line 78, _mobile.scss */
+    main article #services .title h5 {
+      font-size: 30px !important;
+    }
+    /* line 82, _mobile.scss */
+    main article #services .title h4 {
+      font-size: 28px !important;
+    }
+    /* line 250, _mobile.scss */
+    main article #services ._1-services {
+      margin-bottom: 20px;
+    }
+    /* line 255, _mobile.scss */
+    main article #master-chef .master-chef-infor {
+      margin-top: 7%;
+    }
+    /* line 259, _mobile.scss */
+    main article #contact-us {
+      padding: 50px 0;
+    }
+    /* line 262, _mobile.scss */
+    main article #contact-us .contact-us-inner a.read-more {
+      margin-top: 40px;
+      float: left;
+      text-align: center;
+    }
+    /* line 271, _mobile.scss */
+    main article #block_4 {
+      margin-top: 80px;
+    }
+    /* line 274, _mobile.scss */
+    main article #booking-table {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 277, _mobile.scss */
+    main article #booking-table .booking p {
+      font-size: 14px;
+    }
+    /* line 281, _mobile.scss */
+    main article #booking-table button#send {
+      width: 100%;
+    }
+    /* line 287, _mobile.scss */
+    main article #block_6 {
+      margin-top: 80px;
+    }
+    /* line 292, _mobile.scss */
+    main article #block_8 {
+      margin-top: 80px;
+    }
+    /* line 295, _mobile.scss */
+    main article #gallery {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 300, _mobile.scss */
+    
+    main article #block_9 {
+      margin-top: 80px;
+    }
+    /* line 303, _mobile.scss */
+    main article #main-blog {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 305, _mobile.scss */
+    main article #main-blog iframe {
+      height: 250px !important;
+    }
+    /* line 309, _mobile.scss */
+    main article #aside {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+      padding-top: 0 !important;
+    }
+    /* line 315, _mobile.scss */
+    main article #branch {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 317, _mobile.scss */
+    main article #branch ._1-branch {
+      margin-bottom: 30px;
+    }
+  
+    /* line 323, _mobile.scss */
+    footer {
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+    }
+    /* line 325, _mobile.scss */
+    footer .main-title {
+      margin-bottom: 30px !important;
+    }
+    /* line 328, _mobile.scss */
+    footer ._1 {
+      margin-bottom: 10px;
+    }
+    /* line 331, _mobile.scss */
+    footer ._2 {
+      margin-bottom: 10px;
+    }
+    /* line 334, _mobile.scss */
+    footer ._3 {
+      margin-bottom: 10px;
+    }
+  
+    /* line 338, _mobile.scss */
+    .copyright {
+      padding: 20px 0;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
